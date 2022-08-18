@@ -1,6 +1,7 @@
 import React from "react";
 import Footer from "./components/Footer";
 import "./App.css";
+import "./css/dark.css";
 import Routers from "./components/Routers";
 import { useGlobalContext } from "./context/context";
 
