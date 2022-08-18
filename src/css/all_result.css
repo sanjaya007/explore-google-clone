@@ -1,0 +1,49 @@
+.all-box {
+  max-width: 700px;
+}
+
+.all-box .box {
+  margin-bottom: 30px;
+}
+
+.all-box .box .cite p {
+  color: #8a8a8a;
+  font-size: 12px;
+}
+
+.all-box .box .title a {
+  text-decoration: none;
+  display: inline-block;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+}
+
+.all-box .box .title h1 {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.all-box .box .link a {
+  font-size: 16px;
+  word-wrap: break-word;
+  word-break: break-all;
+}
+
+/* responsive */
+@media (max-width: 1023px) {
+  .all-box .box .title h1 {
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 767px) {
+  .all-box .box .title h1 {
+    font-size: 20px;
+  }
+  .all-box .box .link a {
+    font-size: 14px;
+  }
+}

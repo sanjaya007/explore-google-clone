@@ -1,0 +1,30 @@
+.notfound-box {
+  min-height: calc(100vh - 268px);
+}
+
+.notfound-box .box {
+  padding-right: 170px;
+}
+
+.notfound-box .box h1 {
+  font-size: 22px;
+}
+
+.notfound-box .box h1 span {
+  margin-right: 1px;
+}
+
+.notfound-box .box .info p {
+  font-size: 14px;
+  color: 5d5d5d;
+  font-weight: 500;
+}
+
+@media (max-width: 767px) {
+  .notfound-box {
+    min-height: calc(100vh - 332px);
+  }
+  .notfound-box .box {
+    padding-right: 0;
+  }
+}

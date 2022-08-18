@@ -1,0 +1,24 @@
+.images-box {
+  gap: 12px;
+}
+
+.images-box .box {
+  width: auto;
+}
+
+.images-box .box .img-box {
+  height: 120px;
+}
+
+.images-box .box .img-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* responsive  */
+@media (max-width: 767px) {
+  .images-box {
+    justify-content: center;
+  }
+}

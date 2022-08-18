@@ -1,0 +1,20 @@
+.loading-box {
+  min-height: calc(100vh - 268px);
+}
+
+.loading-box .gif-box {
+  padding-right: 170px;
+}
+
+.loading-box img {
+  height: 70px;
+}
+
+@media (max-width: 767px) {
+  .loading-box {
+    min-height: calc(100vh - 332px);
+  }
+  .loading-box .gif-box {
+    padding-right: 0;
+  }
+}

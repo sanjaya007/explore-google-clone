@@ -1,0 +1,70 @@
+.news-box .box {
+  margin-bottom: 30px;
+  padding-bottom: 30px;
+  max-width: 700px;
+  border-bottom: 1px solid #ebebeb;
+}
+
+.news-box .box .source .label p {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.news-box .box .source .info p {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.news-box .box .source .info a {
+  font-size: 14px;
+  word-wrap: break-word;
+  word-break: break-all;
+}
+
+.news-box .box .title h1 {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.news-box .box .title .see-more p {
+  white-space: nowrap;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.news-box .box .title .see-more a {
+  font-size: 14px;
+  word-wrap: break-word;
+  word-break: break-all;
+}
+
+.news-box .box .other .list {
+  padding: 8px 20px;
+  border: 1px solid #d4d4d4;
+  border-radius: 6px;
+  text-decoration: none;
+  display: block;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+}
+
+.news-box .box .other .list .publisher h1 {
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+.news-box .box .other .list .link p {
+  font-size: 14px;
+  color: #161616;
+}
+
+@media (max-width: 767px) {
+  .news-box .box .title h1 {
+    font-size: 18px;
+  }
+  .news-box .box .title .see-more {
+    flex-direction: column;
+  }
+}
